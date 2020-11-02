@@ -1,0 +1,15 @@
+#browse-panel {
+  box-sizing: border-box;
+  height: 60px;
+  background-color: #EEF4F7;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  clip-path: polygon(0 0, 100% 0, 100% 200%, 0 200%);
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  font-size: 20px;
+  .link{
+    text-decoration: none;
+    margin-right: 10px;
+  }
+}
