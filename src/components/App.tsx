@@ -2,8 +2,8 @@ import '../stylesheets/App.scss';
 import React from 'react';
 import BrowsePanel from './BrowsePanel';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import RoundField from './RoundField';
 import ElementTree from './ElementTree';
+import Test1 from './Test1';
 
 function App() {
   return (
@@ -14,9 +14,7 @@ function App() {
           <div className="page">
             <Switch>
               <Route path="/test1">
-                <RoundField>
-                  test1
-                </RoundField>
+                <Test1 />
               </Route>
               <Route path="/test2">
                 <div>YOYO</div>

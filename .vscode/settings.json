@@ -1,0 +1,6 @@
+{
+  "prettier.useTabs": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.packageManager": "yarn",
+  "prettier.singleQuote": true
+}
