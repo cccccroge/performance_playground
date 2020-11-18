@@ -34,3 +34,5 @@ const Test1FieldA = (props: Test1FieldAProps) => {
 };
 
 export default Test1FieldA;
+// DEMO 1
+// export default React.memo(Test1FieldA);

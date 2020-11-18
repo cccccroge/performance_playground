@@ -46,9 +46,6 @@ const App = () => {
 							<Route path="/test1">
 								<Test1 dispatch={dispatch} />
 							</Route>
-							{/* <Route path="/test2">
-								<div>YOYO</div>
-							</Route> */}
 							<Route path="/">
 								<div>Home</div>
 							</Route>
