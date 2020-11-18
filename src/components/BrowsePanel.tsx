@@ -6,7 +6,7 @@ const BrowsePanel = () => {
   return (<div id="browse-panel">
     <Link className="link" to="/">Home</Link>
     <Link className="link" to="/test1">test1</Link>
-    <Link className="link" to="/test2">test2</Link>
+    {/* <Link className="link" to="/test2">test2</Link> */}
   </div>);
 };
 
